@@ -1,8 +1,6 @@
 # PiTech
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
-<img width="548" alt="image" src="https://user-images.githubusercontent.com/46865973/215117930-10c1a270-4697-4245-a580-34fe5dc1f6c4.png">
-
 
 # Qr API
 
