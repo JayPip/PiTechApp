@@ -3,9 +3,8 @@
         <div class="panel bg-dark panel-dark">
             <h1>Create Qr Code</h1>
             <h4>Get a Qr image with URL to look up anything on a web.</h4>
-            <form #form="ngForm" (ngSubmit)="logValueToConsole()">
+            <form #form="ngForm" (keyup)="logValueToConsole()">
                 <input class="form-control" placeholder="Your URL" id="inputValue" name="inputValue" [(ngModel)]="inputValue" >
-                <input type="submit"  class="button  button-light confirm-button my-4" value="Generate"/>
             </form>
             <h3>Preview</h3>
             <img [src]="imageToShow" class="qr-image"
