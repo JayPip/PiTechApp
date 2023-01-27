@@ -1,8 +1,7 @@
 # PiTech
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
-<img width="670" alt="image" src="https://user-images.githubusercontent.com/46865973/215116541-8e6f274b-20a7-40d8-84fe-77671ccc9c06.png">
-
+<img width="615" alt="image" src="https://user-images.githubusercontent.com/46865973/215116682-61af91ff-dcaf-4256-94d5-9bd3a60a4dab.png">
 
 ## Development server
 
