@@ -1,0 +1,14 @@
+.panel{
+    padding: 5%;
+    width: auto;
+    color: whitesmoke;
+}
+.qr-image{
+    width: 75%;
+    padding-left: 25%;
+}
+.confirm-button{
+    width: 100%;
+    font-size: large;
+    color: black;
+}

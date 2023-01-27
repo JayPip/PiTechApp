@@ -1,0 +1,12 @@
+.black-gradient{
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+.icon-brand{
+    width: auto;
+    height: 65px;
+}
+.artech-navbar{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
