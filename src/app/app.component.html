@@ -4,27 +4,25 @@
           <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
               <img class="logo" src="assets/techpi-logo.png" >
               <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                  
                 <li class="nav-brand">
-                      
                   </li>
                   <li>
-                      <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-30 align-middle">
+                      <a href="/tasks"  class="nav-link px-30 align-middle">
                           <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Tasks</span> </a>
                   </li>
                   <li>
-                      <a href="#" class="nav-link px-30 align-middle">
+                      <a href="/qrgenerate" class="nav-link px-30 align-middle">
                         <i class="fs-4 bi-qr-code"></i> <span class="ms-1 d-none d-sm-inline">Qr Codes</span></a>
                   </li>
                   <li>
                     <a href="" class="nav-link px-30 align-middle"><i class="bi bi-menu-app"></i><span class="ms-1 d-none d-sm-inline">Restaurant IT Systems</span></a>
                   </li>
-                 
               </ul>
           </div>
       </div>
-      <div class="col py-3">
-        <app-input-url-data></app-input-url-data>
+      <div class="col ">
+        <app-input-url-data *ngIf="getUrl() === '/qrgenerate'" ></app-input-url-data>
+        <app-task-window *ngIf="getUrl() === '/tasks'"></app-task-window>
       </div>
   </div>
 </div>

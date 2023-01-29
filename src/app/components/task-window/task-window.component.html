@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="panel bg-light panel-light">
+            <H1>Tasks</H1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel bg-light">
+            <button mat-stroked-button (click)="addNewTab()">Add new group</button>
+            <mat-tab-group
+            class="main-tab-group mt-2"
+            
+            [selectedIndex]="selectedTab"
+            (selectedTabChange)="tabChanged($event)">
+            <ng-container *ngFor="let tab of tabs; let tabIndex = index">
+                <mat-tab >
+                    <ng-template mat-tab-label>{{ tab.title }}
+                        <mat-icon style="pointer-events: auto;" mat-icon-button (click)="removeTab(tabIndex)">close</mat-icon>
+                    </ng-template>
+                        <!-- <app-tab-content [tab]="tab"></app-tab-content> -->
+                        <app-task-list1></app-task-list1>
+                </mat-tab>
+                
+            </ng-container>
+               
+            </mat-tab-group>
+
+        </div>
+    </div>
+</div>
