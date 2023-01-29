@@ -1,6 +1,10 @@
-# QrApp
+# PiTech
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+
+# Qr API
+
+I used https://goqr.me/api/ API to create functioning static Qr code generator. After sending tke encoded URL string to server via implemented Get method, we get back a png file to display and download.
 
 ## Development server
 
